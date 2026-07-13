@@ -17,7 +17,7 @@ div#mountain {
   background-image: url("../michel.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position:  top right;
+  background-position:  top left;
   background-attachment: scroll;
 }
 
