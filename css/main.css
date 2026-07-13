@@ -19,7 +19,7 @@ div#mountain {
   background-size: 70% 100%;
   background-position:  top left;
   top:-2px;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 
