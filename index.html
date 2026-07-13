@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+
+
+<h2>Description</h2>
+<p>A conference in honor of Michel Van den Bergh on the occassion of his official retirement celebrating a remarkable mathematical journey and the many explorations it continues to inspire.
+
+
+
+<h2>Speakers</h2>
+<ul class="names">
+{% for speaker_id in site.data.speakers %}
+{% assign speaker = speaker_id[1] %}
+  <li><span class="name">
+  {% if speaker.website %}
+    <a href="{{ speaker.website }}">{{ speaker.name }}</a>
+  {% else %}
+    {{ speaker.name }}
+  {% endif %}
+  </span>
+  {% if speaker.tbc %}
+    *
+  {% endif %}
+  (<span class="affiliation">{{ speaker.affiliation }}</span>)
+{% endfor %}
+</ul>
+
+
+<h2>Participants</h2>
+<p>Please register <a class="one" href="https://forms.gle/VPiZezaGS3CWcW2t5">here</a>. 
+  %For financial support, please apply by September 1. 
+  
+
+
+
+<h2>Practical</h2>
+<p>The conference will take place at the Université libre de Bruxelles (ULB), Campus de la plaine. 
+
+%<p>On Monday evening there will be a small reception provided by <a class="two" %href="https://weexist.be/">We Exist</a>.
+
+<h2>Organisation</h2>
+<p>If you have any questions please contact the organisers.
+
+<ul class="nameso">
+   <li><span class="name"><a href="mailto:wendy.lowen@uantwerpen.be">Wendy Lowen</a></span></li>
+   <li><span class="name"><a href="mailto:spela.spenko@ulb.be">Špela Špenko</a></span></li>
+</ul>
+
+%<p>The conference is supported through the FNRS.
+

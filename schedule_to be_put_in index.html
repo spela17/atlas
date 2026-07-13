@@ -1,0 +1,27 @@
+<h2>Schedule</h2>
+{% for day in site.data.schedule %}
+<h4>{{ day.date }}</h4>
+<dl class="schedule">
+  {% for slot in day.slots %}
+    <dt>{{ slot.time }}
+    {% if slot.talk %}
+      {% assign talk = site.data.talks[slot.talk] %}
+      {% assign speaker = site.data.speakers[slot.talk] %}
+
+      {% if site.data.talks[slot.talk] %}
+        <dd><span class="title">
+          <a href="{{ site.baseurl }}/abstracts#{{ slot.talk }}">{{ talk.title }}</a>
+        </span>
+          (<span class="name">{{ speaker.name }}</span>) 
+        </dd>
+      {% else %}
+        <dd>5 minute talks</dd>
+      {% endif %}
+    {% elsif slot.other %}
+      <dd>{{ slot.other }}
+    {% else %}
+      <dd><em>to be determined</em></dd>
+    {% endif %}
+  {% endfor %}
+</dl>
+{% endfor %}
