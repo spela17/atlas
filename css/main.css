@@ -9,7 +9,7 @@ body {
 
 div#mountain {
   position: fixed;
-  height: 113%;
+  height: 117%;
   width: 100%;
   z-index: -1;
   opacity: 0.43;
@@ -18,7 +18,7 @@ div#mountain {
   background-repeat: no-repeat;
   background-size: 75%;
   background-position:  top left;
-  top:-7px;
+  top:-5px;
   background-attachment: scroll;
 }
 
