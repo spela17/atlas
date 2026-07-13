@@ -16,7 +16,7 @@ div#mountain {
   background-color: #f3f8ef;
   background-image: url("../michel.png");
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 50%;
   background-position:  top left;
   background-attachment: fixed;
 }
