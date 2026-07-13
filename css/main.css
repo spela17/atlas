@@ -16,7 +16,7 @@ div#mountain {
   background-color: rgb(236, 230, 228);
   background-image: url("../michel.png");
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 75%;
   background-position:  top left;
   top:-10px;
   background-attachment: scroll;
