@@ -17,7 +17,19 @@ div#content {
   padding: 10px;
 }
 
-
+div#mountain {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+  background-color: rgb(236, 230, 228);
+  background-image: url("../crte.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position:  bottom left;
+  background-attachment: fixed;
+}
 
 hr {
   border: 0;
