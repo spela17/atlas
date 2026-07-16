@@ -1,0 +1,31 @@
+diff --git a/index.html b/index.html
+--- a/index.html
++++ b/index.html
+@@
+-<img src="michel9.png" width="100%">
++<img src="michel9.png"
++     class="hero-image"
++     alt="Michel Van den Bergh writing on a blackboard">
+
+diff --git a/main.css b/main.css
+--- a/main.css
++++ b/main.css
+@@
++.hero-image {
++  display: block;
++  width: 100%;
++  height: auto;
++  /* A subtle feather so the photograph melts into the white page. */
++  -webkit-mask-image: radial-gradient(
++    ellipse at center,
++    #000 76%,
++    rgba(0, 0, 0, 0.92) 84%,
++    transparent 100%
++  );
++  mask-image: radial-gradient(
++    ellipse at center,
++    #000 76%,
++    rgba(0, 0, 0, 0.92) 84%,
++    transparent 100%
++  );
++}
