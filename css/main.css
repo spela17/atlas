@@ -22,12 +22,11 @@ div#mountain {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: 1;
-  background-color: rgb(236, 230, 228);
+  opacity: 0.3;
   background-image: url("../crte.png");
   background-repeat: no-repeat;
-  background-size: 70%;
-  background-position:  bottom left;
+  background-size: 100%;
+  background-position:  bottom right;
   background-attachment: fixed;
 }
 
