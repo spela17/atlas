@@ -2,12 +2,13 @@ belmans:
   name: Pieter Belmans
   affiliation: Utrecht University
 
-
-
-
 bridgeland:
   name: Tom Bridgeland
   affiliation: University of Sheffield
+
+keller:
+  name: Bernhard Keller
+  affiliation: Université Paris Cité
 
 
 kontsevich:
