@@ -6,6 +6,6 @@
       { time: "11:30&ndash;12:30", talk: bridgeland},
       { time: "14:30&ndash;15:30", talk: nordskova},
       { time: "16:00&ndash;17:00", talk: kontsevich},
-      { time: "17:00&ndash;17:30", talk: historical overview},
+      { time: "17:00&ndash;17:30", other: historical overview},
       { time: "17:30&ndash;20:00", other: reception},
     ]
