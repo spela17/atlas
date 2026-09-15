@@ -3,9 +3,9 @@
     [
       { time: "9:00&ndash;10:00", talk:  keller},
       { time: "10:30&ndash;11:30", talk: belmans},
-      { time: "11:30&ndash;12:30", talk: kontsevich},
+      { time: "11:30&ndash;12:30", talk: bridgeland},
       { time: "14:00&ndash;14:30", talk: historical interlude},
       { time: "14:30&ndash;15:30", talk: nordskova},
-      { time: "16:00&ndash;17:00", talk: bridgeland},
+      { time: "16:00&ndash;17:00", talk: kontsevich},
       { time: "17:00&ndash;20:00", other: reception},
     ]
