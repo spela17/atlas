@@ -25,7 +25,7 @@ kontsevich:
     <p>
 
 nordskova:
-  title: 
+  title: Some examples of disconnectedness
   speaker: nordskova
   abstract: >
-    <p>
+    <p> I will talk about two examples of smooth projective varieties whose spaces of Bridgeland stability conditions are disconnected (in fact, have infinitely many connected components). In addition, for one of these varieties, the braid group action on the set of full exceptional collections is not transitive (in fact, has infinitely many orbits). Although the idea behind the construction is quite simple and the examples are not at all exotic, to the best of my knowledge neither of these disconnectedness phenomena had been observed before on smooth projective varieties. 
