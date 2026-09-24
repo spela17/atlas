@@ -19,7 +19,7 @@ keller:
 
 
 kontsevich:
-  title: A categorical origin of symplectic geometry: the case of tori
+  title: "A categorical origin of symplectic geometry: the case of tori"
   speaker: kontsevich
   abstract: >
     <p>  I will describe a complete and cocomplete pretriangulated dg category over the ring of integers of a non-archimedean field, built from microlocal sheaf theory and almost mathematics. It can be viewed both as a large integral Fukaya category of a symplectic torus and as a kind of category of analytic quasi-coherent sheaves with norms on a power of a Tate elliptic curve. The symplectic geometry is not imposed but recovered as categorical symmetries.
